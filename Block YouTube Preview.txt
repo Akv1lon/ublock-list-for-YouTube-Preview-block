@@ -1,0 +1,12 @@
+      ! Мобильная версия YouTube
+   m.youtube.com##.video-thumbnail-container-large
+   m.youtube.com##ytm-video-preview:remove-attr(class)
+   m.youtube.com##ytm-thumbnail
+   m.youtube.com##.media-item-thumbnail-container
+   
+   ! Десктопная версия YouTube
+   youtube.com##.ytLockupViewModelContentImage
+   www.youtube.com##.ytThumbnailViewModelHost
+   youtube.com##ytd-thumbnail.ytd-video-renderer
+   www.youtube.com##.shortsLockupViewModelHostThumbnailParentContainer
+   youtube.com###video-preview-container
