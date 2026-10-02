@@ -1,0 +1,18 @@
+[Adblock Plus 2.0]
+! Title: YouTube No Shorts
+
+! ==========================================
+! Mobile YouTube
+! ==========================================
+
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(2)
+
+! ==========================================
+! Desktop YouTube
+! ==========================================
+
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytd-rich-section-renderer:has(ytd-rich-item-renderer ytd-thumbnail[overlay-style="SHORTS"])
+youtube.com##ytd-guide-entry-renderer[title*="Shorts"], ytd-mini-guide-entry-renderer[title*="Shorts"]
+youtube.com##ytd-reel-video-renderer
